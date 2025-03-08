@@ -1,0 +1,65 @@
+.wikipedia-container {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient Background */
+    min-height: 100vh;
+    color: white;
+  }
+  
+  .wikipedia-container h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #f7b731; /* Gold Heading */
+  }
+  
+  .wikipedia-container p {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .wiki-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .wiki-item {
+    background: #2c3e50;
+    padding: 20px;
+    border-radius: 12px;
+    width: 90%; /* 🔹 Increased Width */
+    max-width: 800px; /* 🔹 Increased max width */
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .wiki-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 18px rgba(255, 255, 255, 0.3);
+  }
+  
+  .wiki-item h3 {
+    font-size: 22px;
+    color: #f1c40f;
+  }
+  
+  .wiki-item p {
+    font-size: 16px;
+    color: #ecf0f1;
+    line-height: 1.5;
+  }
+  
+  .wiki-item a {
+    display: block;
+    margin-top: 12px;
+    color: #f7b731;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .wiki-item a:hover {
+    text-decoration: underline;
+  }
+  
