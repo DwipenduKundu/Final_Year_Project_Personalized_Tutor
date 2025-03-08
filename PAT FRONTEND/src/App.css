@@ -1,0 +1,169 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #007bff;
+  display: flex;
+  flex-direction: column; /* Ensures proper stacking */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Centering the chatbox */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  flex-grow: 1; /* Allows content to expand */
+}
+
+/* ========================= */
+/* Responsive Design */
+/* ========================= */
+@media (max-width: 768px) {
+  .chatbox {
+    width: 90vw;
+    height: 85vh;
+  }
+}
+
+/* ========================= */
+/* Footer (Fixed at Bottom) */
+/* ========================= */
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  background: #0056b3;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f00a30; /* Green Background */
+}
+
+.auth-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 500px;
+  height: 300px;
+}
+
+.auth-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #230bb9; /* Darker Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-box button:hover {
+  background-color: #520af8; /* Hover Effect */
+}
+
+.auth-box p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.auth-box a {
+  color: #388E3C;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.auth-box a:hover {
+  text-decoration: underline;
+}
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #007bff; /* Green Background */
+}
+
+.auth-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.auth-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #388E3C; /* Darker Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-box button:hover {
+  background-color: #2E7D32; /* Hover Effect */
+}
+
+.auth-box p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.auth-box a {
+  color: #388E3C;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.auth-box a:hover {
+  text-decoration: underline;
+}
