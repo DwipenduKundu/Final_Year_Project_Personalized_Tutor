@@ -1,4 +1,4 @@
-# Final_Year_Project_Personalized_Tutor
+# Final Year Project Personalized Tutor
 Sure! Here's a **README.md** file for your project:  
 
 ---
