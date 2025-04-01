@@ -1,4 +1,4 @@
-# Peresonalized-AI-tutor
+# Final_Year_Project_Personalized_Tutor
 Sure! Here's a **README.md** file for your project:  
 
 ---
@@ -36,7 +36,7 @@ AI Tutor is a web application that integrates an AI-powered chat system with add
 
 ```sh
 ai-tutor/
-│── frontend/
+│── frontend/ 
 │   ├── src/
 │   │   ├── components/
 │   │   │   ├── Navbar.js
@@ -47,9 +47,14 @@ ai-tutor/
 │   │   ├── App.js
 │   │   ├── index.js
 │   │   ├── App.css
-│   ├── public/
 │   ├── package.json
-│
+│   ├── public     
+│           ├──index.html(homepage/login-page)
+│           ├──page-2.html(sign-up page))
+│           ├──page-3.html(OTP page)
+│           ├──page-4.html(personal data taken page)
+│           ├──page-5.html(login successful page)
+|
 │── backend/
 │   ├── server.js
 │   |── package.json
