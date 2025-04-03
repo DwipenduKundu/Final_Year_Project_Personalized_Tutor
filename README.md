@@ -60,41 +60,25 @@ PAT is a personalized AI tutor, which main aim is to provide education and commu
 It like a simple interface with more feature for interaction. The search result is shown in the format of audio and text both, and it will give some time to the student to learn it after learning the concept the user have to speak-out the concept to the AI, it will covert the voice of the user to text, and it will check it's correct or not then forward it to next question. 
 
 It will show the progress of the student in both field i.e. knowledge & communication. 
-## 🚀 Features  
+## 🚀Features  
 
-- **💬 AI Chatbot**: Ask questions and get AI-generated responses.  
-- **📺 YouTube Integration**: Fetch relevant YouTube videos based on queries.  
-- **📖 Wikipedia Lookup**: Get summarized Wikipedia search results.  
-- **📝 AI-Generated Quizzes**: Automatically generate quizzes based on conversation topics.  
-- **💾 Local Storage**: Stores chat history and topics for continuity.  
-
+- **💬 AI Chatbot**: Where you can ask any topics.  
+- **📺 YouTube Box**: You got all relevant YouTube videos based on your topics.  
+- **📖 Wikipedia Box**: You got all relevant wikipedia search results.  
+- **📝 AI-Generated Quiz**: Automatically generate quizzes based on your topics.
 ---
 
-## 🛠️ Tech Stack  
+## 🛠️Tech Stack  
 
 ### **Frontend** (React.js)  
-- React.js with hooks (`useState`, `useEffect`)  
-- React Markdown for rendering responses  
-- LocalStorage for caching messages and topics  
+- Html(sign-in & login pages)
+- React.js. 
 
 ### **Backend** (Node.js & Express.js)  
 - OpenAI API for chatbot responses  
 - Wikipedia API for content retrieval  
 - YouTube API for video searches  
-- Custom AI-based question generator for quizzes  
-
----
-
-
-
-
-
-## ⚙️ Configuration  
-
-- **Backend runs on**: `http://localhost:5000/`  
-- **Frontend runs on**: `http://localhost:3000/`  
-
-Make sure to set up `.env` file for API keys:
+- Custom AI-based question generator for quizzes
 ```sh
 OPENAI_API_KEY=your_openai_api_key
 YOUTUBE_API_KEY=your_youtube_api_key
@@ -102,14 +86,6 @@ WIKIPEDIA_API_URL=https://en.wikipedia.org/w/api.php
 ```
 
 ---
-
-## 🎯 Usage  
-
-1️⃣ **Start a Chat**: Ask the AI anything using the chat window.  
-2️⃣ **Search YouTube**: Get relevant YouTube videos based on queries.  
-3️⃣ **Explore Wikipedia**: Retrieve summarized search results from Wikipedia.  
-4️⃣ **Take a Quiz**: AI generates a quiz based on past discussion topics.  
-
 ---
 
 ## 📸 Screenshots  
@@ -128,24 +104,10 @@ WIKIPEDIA_API_URL=https://en.wikipedia.org/w/api.php
 
 - 📚 **More AI-powered learning modules**  
 - 🎤 **Voice-enabled chat feature**  
-- 📊 **Performance tracking for quizzes**  
 
 ---
-
-## 🏆 Contributing  
-
-Contributions are welcome! If you'd like to improve AI Tutor, follow these steps:  
-1️⃣ Fork the repository  
-2️⃣ Create a feature branch (`git checkout -b feature-branch`)  
-3️⃣ Commit changes (`git commit -m "Added feature"`)  
-4️⃣ Push to the branch (`git push origin feature-branch`)  
-5️⃣ Open a pull request  
-
-
 ---
 
 🚀 **Developed by Dwipendu Kundu** | [LinkedIn](https://www.linkedin.com/in/dwipendu-kundu-a19557227/)  
 
 ---
-
-
