@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center justify-center min-h-screen bg-teal-600">
+    
+    <div class="bg-teal-700 p-8 rounded-lg shadow-lg w-[600px]">
+        
+        <form class="grid grid-cols-3 gap-4">
+            <!-- First Row -->
+            <input type="text" placeholder="first name" class="col-span-1 bg-gray-200 px-4 py-2 rounded outline-none">
+            <input type="text" placeholder="middle name" class="col-span-1 bg-gray-200 px-4 py-2 rounded outline-none">
+            <input type="text" placeholder="last name" class="col-span-1 bg-gray-200 px-4 py-2 rounded outline-none">
+            
+            <!-- Second Row -->
+            <input type="date" placeholder="date of birth" class="col-span-1 bg-gray-200 px-4 py-2 rounded outline-none">
+            <input type="text" placeholder="phone number" class="col-span-2 bg-gray-200 px-4 py-2 rounded outline-none">
+            
+            <!-- Third Row -->
+            <input type="text" placeholder="highest qualification" class="col-span-3 bg-gray-200 px-4 py-2 rounded outline-none">
+            
+            <!-- Fourth Row -->
+            <input type="text" placeholder="school name" class="col-span-1 bg-gray-200 px-4 py-2 rounded outline-none">
+            <input type="text" placeholder="board" class="col-span-2 bg-gray-200 px-4 py-2 rounded outline-none">
+            
+            <!-- Fifth Row -->
+            <input type="text" placeholder="college name" class="col-span-1 bg-gray-200 px-4 py-2 rounded outline-none">
+            <input type="text" placeholder="university name" class="col-span-2 bg-gray-200 px-4 py-2 rounded outline-none">
+        </form>
+
+        <!-- Save Button -->
+        <div class="flex justify-end mt-6">
+            <button onclick="window.location.href='page-5.html';" class="flex items-center bg-gray-200 text-black px-6 py-2 rounded">
+                save → 
+            </button>
+        </div>
+    </div>
+</body>
+</html>

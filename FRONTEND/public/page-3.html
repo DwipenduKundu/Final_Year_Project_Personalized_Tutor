@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Verification</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to bottom, #41e0b8, #4cc9f0);
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .otp-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        input {
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            font-size: 20px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            outline: none;
+        }
+        .timer {
+            font-size: 18px;
+            color: red;
+            margin-bottom: 10px;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        button:disabled {
+            background: grey;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Enter OTP</h2>
+        <div class="otp-container">
+            <input type="text" maxlength="1" class="otp-input">
+            <input type="text" maxlength="1" class="otp-input">
+            <input type="text" maxlength="1" class="otp-input">
+            <input type="text" maxlength="1" class="otp-input">
+            <input type="text" maxlength="1" class="otp-input">
+            <input type="text" maxlength="1" class="otp-input">
+        </div>
+        <p class="timer">Resend OTP in <span id="countdown">1:59</span></p>
+        <a href="page-4.html"><button id="nextBtn">Next →</button></a>
+    </div>
+
+    <script>
+        let timer = 119; // 1:59 in seconds
+        let countdownElement = document.getElementById("countdown");
+        
+        function startTimer() {
+            let interval = setInterval(() => {
+                let minutes = Math.floor(timer / 60);
+                let seconds = timer % 60;
+                countdownElement.innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+                timer--;
+
+                if (timer < 0) {
+                    clearInterval(interval);
+                    countdownElement.innerText = "OTP expired!";
+                }
+            }, 1000);
+        }
+
+        // Move focus to the next input box
+        const inputs = document.querySelectorAll(".otp-input");
+        inputs.forEach((input, index) => {
+            input.addEventListener("input", (e) => {
+                if (e.target.value && index < inputs.length - 1) {
+                    inputs[index + 1].focus();
+                }
+            });
+        });
+
+        startTimer();
+    </script>
+
+</body>
+</html>

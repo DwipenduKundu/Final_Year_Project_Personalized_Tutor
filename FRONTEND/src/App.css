@@ -1,0 +1,53 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column; /* Ensures proper stacking */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Centering the chatbox */
+.container {
+  display: flex;
+  background-color: #9f2b2b;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  flex-grow: 1; /* Allows content to expand */
+}
+
+/* ========================= */
+/* Responsive Design */
+/* ========================= */
+@media (max-width: 768px) {
+  .chatbox {
+    width: 80vw;
+    height: 85vh;
+  }
+}
+
+/* ========================= */
+/* Footer (Fixed at Bottom) */
+/* ========================= */
+.footer {
+  position: fixed;
+  bottom: 1px;
+  right: 1px;
+  background: linear-gradient(45deg, rgb(125, 19, 186),rgb(83, 42, 195),rgb(19, 100, 186), rgb(23, 203, 167),rgb(200, 203, 23));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+}
