@@ -90,7 +90,7 @@ WIKIPEDIA_API_URL=https://en.wikipedia.org/w/api.php
 
 ## 📸 Screenshots  
 
-![Screenshot (85)](https://github.com/user-attachments/assets/68568541-cd7c-4ae4-acab-76acd694f58a)
+![Screenshot (85)](file:///C:/Users/DWIPENDU/OneDrive/Pictures/Screenshots/Screenshot%20(1075).png).
 ![Screenshot (87)](https://github.com/user-attachments/assets/958e4082-45f4-40a8-8b25-d4dcf069f21c)
 ---![Screenshot (86)](https://github.com/user-attachments/assets/e9bd5867-6dd0-46c4-bca0-3b184054ae77)
 ![image](https://github.com/user-attachments/assets/33774aee-0270-484b-b2b1-9a4a48688091)
