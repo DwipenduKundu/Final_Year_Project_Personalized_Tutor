@@ -90,7 +90,16 @@ WIKIPEDIA_API_URL=https://en.wikipedia.org/w/api.php
 
 ## 📸 Screenshots  
 
-![Screenshot-1]([https://github.com/DwipenduKundu/Final_Year_Project_Personalized_Tutor/issues/1#issue-2970115737](https://github.com/DwipenduKundu/Final_Year_Project_Personalized_Tutor/issues/1#issue-2970115737)).
+![Image](https://github.com/user-attachments/assets/074da888-a4fc-415e-819b-1150e71c6f5a)
+![Image](https://github.com/user-attachments/assets/6803979c-5908-468e-8c5f-91be1b056e9a)
+![Image](https://github.com/user-attachments/assets/712ffa06-d78d-48c1-b1d5-62066437f3e3)
+![Image](https://github.com/user-attachments/assets/9607a581-5bf9-4f93-8a5a-4be7debc97a9)
+![Image](https://github.com/user-attachments/assets/5ed7a09b-da13-47aa-b3bc-ab136c4d3ca3)
+![Image](https://github.com/user-attachments/assets/562dca23-1464-4843-a7f6-18481de9f27c)
+![Image](https://github.com/user-attachments/assets/f1dbde0e-d1bd-4410-a88c-23e91219ceec)
+![Image](https://github.com/user-attachments/assets/464b4518-2b36-4073-a9ca-f5232581891d)
+![Image](https://github.com/user-attachments/assets/6a6cf2cd-c8c3-42d7-8e17-0927c693951b)
+![Image](https://github.com/user-attachments/assets/d181f7b7-9fa5-4a4d-a033-21f427d97865)
 
 ---
 
