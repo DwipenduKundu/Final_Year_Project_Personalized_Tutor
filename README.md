@@ -2,6 +2,56 @@
 Sure! Here's a **README.md** file for your project:  
 
 ---
+## 📂 Project Structure  
+
+```sh
+ai-tutor/
+│── frontend/ 
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Navbar.js
+│   │   │   ├── ChatBox.js
+│   │   │   ├── YouTube.js
+│   │   │   ├── Wikipedia.js
+│   │   │   ├── Test.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   ├── App.css
+│   ├── package.json
+│   ├── public     
+│           ├──index.html(homepage/login-page)
+│           ├──page-2.html(sign-up page))
+│           ├──page-3.html(OTP page)
+│           ├──page-4.html(personal data taken page)
+│           ├──page-5.html(login successful page)
+|
+│── backend/
+│   ├── server.js
+│   |── package.json
+```
+---
+
+## 🏗️ Setup Instructions  
+
+### ** Install Dependencies**  
+
+#### **Frontend**  
+```sh
+cd ai-tutor-frontend
+npm i
+npm start
+```
+
+#### **Backend**  
+```sh
+cd ai-tutor-backend
+npm i express
+node server.js
+```
+
+---
+
+
 
 # AI Tutor  
 
@@ -32,61 +82,9 @@ AI Tutor is a web application that integrates an AI-powered chat system with add
 
 ---
 
-## 📂 Project Structure  
 
-```sh
-ai-tutor/
-│── frontend/ 
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Navbar.js
-│   │   │   ├── ChatBox.js
-│   │   │   ├── YouTube.js
-│   │   │   ├── Wikipedia.js
-│   │   │   ├── Test.js
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   ├── App.css
-│   ├── package.json
-│   ├── public     
-│           ├──index.html(homepage/login-page)
-│           ├──page-2.html(sign-up page))
-│           ├──page-3.html(OTP page)
-│           ├──page-4.html(personal data taken page)
-│           ├──page-5.html(login successful page)
-|
-│── backend/
-│   ├── server.js
-│   |── package.json
-```
 
----
 
-## 🏗️ Setup Instructions  
-
-### **1️⃣ Clone the Repository**  
-```sh
-git clone https://github.com/indrajit002/PAT__Peresonalized-AI-tutor.git
-cd ai-tutor
-```
-
-### **2️⃣ Install Dependencies**  
-
-#### **Frontend**  
-```sh
-cd ai-tutor-frontend
-npm install
-npm start
-```
-
-#### **Backend**  
-```sh
-cd ai-tutor-backend
-npm install
-node server.js
-```
-
----
 
 ## ⚙️ Configuration  
 
