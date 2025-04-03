@@ -5,7 +5,7 @@ Sure! Here's a **README.md** file for your project:
 ## 📂 Project Structure  
 
 ```sh
-ai-tutor/
+Project/
 │── frontend/ 
 │   ├── src/
 │   │   ├── components/
@@ -33,29 +33,36 @@ ai-tutor/
 
 ## 🏗️ Setup Instructions  
 
-### ** Install Dependencies**  
+### **Install Dependencies**  
 
 #### **Frontend**  
 ```sh
-cd ai-tutor-frontend
+cd Project\frontend
 npm i
 npm start
 ```
 
 #### **Backend**  
 ```sh
-cd ai-tutor-backend
+cd Project\backend
 npm i express
 node server.js
 ```
 
 ---
 
+#PAT:Personalized AI tutor 
+As education is the building block of our society, and in this century knowledge is the key to our success. Our goal is to provide a platform to the students or anyone of this society, where they can learn anything of their choice with a personal AI-tutor of their own. We called it PAT. 
+
+PAT is a personalized AI tutor, which main aim is to provide education and communication skills for free of cost. we will make an artificial tutor who interact with the student and the student also need to interact with them. 
+
+It like a simple interface with more feature for interaction. The search result is shown in the format of audio and text both, and it will give some time to the student to learn it after learning the concept the user have to speak-out the concept to the AI, it will covert the voice of the user to text, and it will check it's correct or not then forward it to next question. 
+
+It will show the progress of the student in both field i.e. knowledge & communication. 
 
 
-# AI Tutor  
 
-AI Tutor is a web application that integrates an AI-powered chat system with additional features like YouTube search, Wikipedia lookup, and AI-generated quizzes. It provides an interactive learning experience by answering questions, suggesting videos, summarizing Wikipedia content, and generating quizzes based on past discussions.
+
 
 ## 🚀 Features  
 
