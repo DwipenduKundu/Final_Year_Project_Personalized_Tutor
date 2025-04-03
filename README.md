@@ -100,6 +100,9 @@ WIKIPEDIA_API_URL=https://en.wikipedia.org/w/api.php
 ![Image](https://github.com/user-attachments/assets/464b4518-2b36-4073-a9ca-f5232581891d)
 ![Image](https://github.com/user-attachments/assets/6a6cf2cd-c8c3-42d7-8e17-0927c693951b)
 ![Image](https://github.com/user-attachments/assets/d181f7b7-9fa5-4a4d-a033-21f427d97865)
+![Image](https://github.com/user-attachments/assets/72eee734-0a14-4d2b-a6c3-fe1e28003380)
+![Image](https://github.com/user-attachments/assets/a15cb6c9-37ab-4978-afe6-7c079a00239b)
+![Image](https://github.com/user-attachments/assets/a7057437-f8ae-4629-b960-867d81661c10)
 
 ---
 
