@@ -90,14 +90,9 @@ WIKIPEDIA_API_URL=https://en.wikipedia.org/w/api.php
 
 ## 📸 Screenshots  
 
-![Screenshot-1]([file:///C:/Users/DWIPENDU/OneDrive/Pictures/Screenshots/Screenshot%20(1075).png](https://github.com/user-attachments/assets/058ed586-8531-4756-abe8-68793a873394)).
-![Screenshot (87)](https://github.com/user-attachments/assets/958e4082-45f4-40a8-8b25-d4dcf069f21c)
----![Screenshot (86)](https://github.com/user-attachments/assets/e9bd5867-6dd0-46c4-bca0-3b184054ae77)
-![image](https://github.com/user-attachments/assets/33774aee-0270-484b-b2b1-9a4a48688091)
-![image](https://github.com/user-attachments/assets/16a78575-3bcc-49ec-8d1a-9c04a017e482)
-![image](https://github.com/user-attachments/assets/826f7cd0-7a19-4080-8022-f412d5bc8264)
-![image](https://github.com/user-attachments/assets/a6306846-55d5-4a9d-899a-498157715430)
+![Screenshot-1](https://github.com/DwipenduKundu/Final_Year_Project_Personalized_Tutor/issues/1#issue-2970115737).
 
+---
 
 
 ## 📌 Future Enhancements  
