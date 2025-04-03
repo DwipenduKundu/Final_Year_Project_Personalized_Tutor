@@ -90,7 +90,7 @@ WIKIPEDIA_API_URL=https://en.wikipedia.org/w/api.php
 
 ## 📸 Screenshots  
 
-![Screenshot-1](https://github.com/DwipenduKundu/Final_Year_Project_Personalized_Tutor/issues/1#issue-2970115737).
+![Screenshot-1]([https://github.com/DwipenduKundu/Final_Year_Project_Personalized_Tutor/issues/1#issue-2970115737](https://github.com/DwipenduKundu/Final_Year_Project_Personalized_Tutor/issues/1#issue-2970115737)).
 
 ---
 
